@@ -14,11 +14,12 @@ function Footer() {
             <div className='footer_left'>
                 <img
                     className='footer_albumLogo'
-                    src=""
-                    alt=""/>
+                    src={require('./assets/Rohan_Gawhade.png').default}
+                    alt="" 
+                    />
                 <div className="footer_songInfo">
-                    <h4>Minato</h4>
-                    <p>Namikaze</p>
+                    <h4>Rohan Gawhade</h4>
+                    <p>Developer</p>
                 </div>
             </div>
             <div className='footer_center'>
@@ -31,13 +32,13 @@ function Footer() {
             <div className='footer_right'>
             <Grid container spacing={2}>
                 <Grid item>
-                    <PlaylistPlay />
+                    <PlaylistPlay className='footer_rightIcon'/>
                 </Grid>
                 <Grid item>
-                    <VolumeDown />
+                    <VolumeDown className='footer_rightIcon'/>
                 </Grid>
                 <Grid item xs>
-                    <Slider/>
+                    <Slider />
                 </Grid>
             </Grid>
             </div>

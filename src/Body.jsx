@@ -6,6 +6,7 @@ import Header from './Header';
 import SongRow from './SongRow';
 
 function Body({ spotify }) {
+    // eslint-disable-next-line no-unused-vars
     const [{ discover_weekly }, dispatch] = useDataLayerValue();
 
     return (

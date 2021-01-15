@@ -18,7 +18,7 @@
 }
 
 .footer_green {
-    color: #1ed15e;
+    color: #1DB954;
 }
 
 .footer_songInfo > h4 {
@@ -51,7 +51,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
+    color: gray;
+    transition: 100ms color ease-in;
+}
+
+.MuiGrid-spacing-xs-2 > .MuiGrid-item {
+    padding: 8px;
+    align-self: center;
 }
 
 .footer_icon:hover, .footer_green:hover{
@@ -60,5 +66,10 @@
 }
 
 .footer_right * .MuiSlider-root{
-    color: green;
+    color: #1DB954;
+    width: 80%;
+}
+
+.footer_rightIcon:hover{
+    color: white;
 }

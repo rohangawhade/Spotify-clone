@@ -5,6 +5,7 @@ import { Avatar } from '@material-ui/core';
 import { useDataLayerValue } from './DataLayer';
 
 function Header() {
+    // eslint-disable-next-line no-unused-vars
     const [{ user }, dispatch] = useDataLayerValue();
 
     return (
@@ -19,7 +20,7 @@ function Header() {
                 />
             </div>
             <div className="header_right">
-                <Avatar src={user?.images[0]?.url} alt={user?.display_name} />
+                <Avatar src={ user?.images[0]?.url } alt={user?.display_name} />
                 <h4>{user?.display_name}</h4>
             </div>
         </div>
