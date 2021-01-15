@@ -4,7 +4,7 @@
     color: grey;
     height: 40px;
     cursor: pointer;
-    transition: 200ms color ease-in;
+    transition: 100ms color ease-in;
 }
 
 .sidebar > hr{
@@ -22,8 +22,9 @@
     padding-right: 10px;
 }
 
-.sidebarOption > p{
+h4.playlists{
     margin-top: 10px;
     margin-left: 20px;
-    font-size: 18px;
+    font-size: 17px;
+    font-weight: 600;
 }

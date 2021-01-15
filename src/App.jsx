@@ -10,6 +10,7 @@ const spotify = new SpotifyWebApi();
 
 function App() {
 
+  // eslint-disable-next-line no-unused-vars
   const [{ user, token }, dispatch] = useDataLayerValue();
 
   useEffect(() => {
@@ -48,10 +49,7 @@ function App() {
       });
 
     }
-  }, []);
-  
-  console.log("user: ", user);
-  console.log("Token: ", token);
+  });
 
   return(
     <div className="app">{
