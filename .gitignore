@@ -20,6 +20,7 @@
 .env
 .vscode
 .eslintcache
+.firebase/
 
 npm-debug.log*
 yarn-debug.log*
